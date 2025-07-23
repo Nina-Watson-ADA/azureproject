@@ -12,6 +12,8 @@ import os
 #except AzureError as e:
     #print ("Couldn't connect to Azure table storage: {e}")
 
+#this stuff to link tables seems to be working funky as I'm on the student plan from what I can recall, so I won't link to the blob or the table
+
 
 
 app = Flask(__name__)
