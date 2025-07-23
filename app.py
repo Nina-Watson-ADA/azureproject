@@ -3,14 +3,14 @@ from azure.core.exceptions import AzureError
 from flask import Flask, render_template, request
 import os
 
-connection_string = "9iCfC19VTGC/s2Nf6CQq7lxFcIy9bJPRGAoJDe6Un71npsSuD3bNskAKpoYQi1pTEV4Prz5fm2rR+AStlg7+MA=="
+#connection_string = "9iCfC19VTGC/s2Nf6CQq7lxFcIy9bJPRGAoJDe6Un71npsSuD3bNskAKpoYQi1pTEV4Prz5fm2rR+AStlg7+MA=="
 
-try:
-    table_service = TableServiceClient.from_connection_string(conn_str=connection_string)
-    table_client = table_service.get_table_client(table_name="producttable")
-    print ("Connected to Azure producttable table! (may not display as it's an empty table")
-except AzureError as e:
-    print ("Couldn't connect to Azure table storage: {e}")
+#try:
+   #table_service = TableServiceClient.from_connection_string(conn_str=connection_string)
+    #table_client = table_service.get_table_client(table_name="producttable")
+   # print ("Connected to Azure producttable table! (may not display as it's an empty table")
+#except AzureError as e:
+    #print ("Couldn't connect to Azure table storage: {e}")
 
 
 
