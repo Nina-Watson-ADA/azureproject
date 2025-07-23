@@ -1,5 +1,5 @@
-from azure.data.tables import TableServiceClient
-from azure.core.exceptions import AzureError
+#from azure.data.tables import TableServiceClient
+#from azure.core.exceptions import AzureError
 from flask import Flask, render_template, request
 import os
 
